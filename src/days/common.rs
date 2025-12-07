@@ -9,7 +9,7 @@ const DIRS: [(i32, i32); 8] = [
     (1, 1),
 ];
 
-#[derive(Clone)]
+#[derive(Debug, Clone)]
 pub struct Grid<T> {
     cells: Vec<Vec<T>>,
 }
